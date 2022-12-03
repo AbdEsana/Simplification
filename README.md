@@ -1,3 +1,7 @@
+the whole simplification happens in Example1 because i ran into problems with the powershell, not much has changed from the engine, using the libigl tutorial 703 decimation, i added the fields into basicScene.h then added an extra field which is a vector of meshes which i will use to append a new mesh after simplification. *note you must click the model then by pressing space it will simplify by collapsing 10% of edges, as a new mesh which is added to the meshLib(vector of meshes). you can use the down key to go to previous step when the mesh wasnt  as simplified and the up arrow key to go deeper into the simplification if you want to add another simplify click space.
+also added you can press "K" when a model is selected (crashes if no model is selected) it will toggle wireframe.
+
+
 # EngineForAnimationCourse
 Graphic Engine based on Libigl
 
